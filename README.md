@@ -3,7 +3,7 @@
 # 2 - Explique o que é uma lista e uma pilha em estrutura de dados. Escreva em C# exemplos de uma lista e uma pilha.
 
 Uma estrutura de dados de lista é usada para armazenar elementos e segue o princípio first-in-first-out, ou seja, o primeiro elemento a ser inserido na lista é o primeiro a ser removido. 
-
+```
 var cargos = new List<string> { "Estagiário", "Aprendiz" };
 
 foreach (var cargo in cargos)
@@ -20,9 +20,9 @@ foreach (var cargo in cargos)
 }
 
 Console.ReadLine();
-
+```
 Agora, em relação à estrutura de dados de pilha, ela funciona de forma semelhante a uma lista, mas segue o princípio last-in-first out, o que significa que o último elemento inserido é o primeiro a ser removido. 
-
+```
 Stack<string> cargos = new Stack<string>();
 
 cargos.Push("Estagiário");
@@ -49,5 +49,7 @@ foreach (var cargo in cargos)
 }
 
 Console.ReadLine();
-
+```
+# Escreva um algoritmo em C# que implemente a lógica de ordenação por inserção do Insertion Sort. Segue modelo de vetor para ser ordenado:
+int[] vetor = { 1, 100, 30, 50, 11, 13, 5, 7, 78 };
 

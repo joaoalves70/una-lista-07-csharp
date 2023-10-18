@@ -51,8 +51,7 @@ foreach (var cargo in cargos)
 Console.ReadLine();
 ```
 
-# 3 - Escreva um algoritmo em C# que implemente a lógica de ordenação por inserção do Insertion Sort. Segue modelo de vetor para ser ordenado: 
-# int[] vetor = { 1, 100, 30, 50, 11, 13, 5, 7, 78 };
+# 3 - Escreva um algoritmo em C# que implemente a lógica de ordenação por inserção do Insertion Sort. Segue modelo de vetor para ser ordenado:  int[] vetor = { 1, 100, 30, 50, 11, 13, 5, 7, 78 };
 
 ```
 int[] vetor = { 1, 100, 30, 50, 11, 13, 5, 7, 78 };
@@ -96,9 +95,7 @@ static void ImprimirVetor(int[] arr)
 Console.ReadLine();
 ```
 
-# 4 - Escreva um algoritmo em C# que implemente a lógica de ordenação por inserção do Shell Sort.
-# Segue modelo de vetor para ser ordenado:
-# int[] vetor = { 1, 100, 30, 50, 11, 13, 5, 7, 78 };
+# 4 - Escreva um algoritmo em C# que implemente a lógica de ordenação por inserção do Shell Sort. Segue modelo de vetor para ser ordenado: int[] vetor = { 1, 100, 30, 50, 11, 13, 5, 7, 78 };
 
 ```
 int[] vetor = { 1, 100, 30, 50, 11, 13, 5, 7, 78 };
